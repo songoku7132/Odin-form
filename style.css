@@ -1,0 +1,148 @@
+@font-face{
+    font-family: my-font;
+    src: url(fonts/Norse-Bold.otf);
+}
+html{
+    background-image: url(pictures/yansi-keim-UcDHADbbnQE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1190px;
+}
+body{
+    display: flex;
+    margin: 0px;
+}
+.picture{
+    display: flex;
+    flex:0 1 auto;
+    border: 2px solid blac;
+    height: 1190px;
+    width: 37%;
+    
+}
+#table{
+    flex:1;
+    border: 2px solid blac;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 150px;
+    margin-top: 240px;
+    font-family: my-font,sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 2px solid blac;
+}
+.haider{
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid re;
+    background-color: whitesmoke;
+    height: 390px;
+    justify-content: end;
+    padding-bottom: 30px;
+}
+p{
+    border: 2px solid blac;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 110px;
+}
+.speaker-form{
+    background-color: white;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blac;
+}
+.form{
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blac;
+    background-color: white;
+    /*height: 300px;*/
+    /*flex-wrap: wrap;*/
+    gap:30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 160px;
+}
+.prom-1,
+.prom-2,
+.prom-3{
+    border: 2px solid blac;
+    display: flex;
+    gap:100px;
+}
+legend{
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid blac;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.login{
+    flex:1 1 auto;
+    border:2px solid blac;
+    background-color: whitesmoke;
+    /*height:400px;*/
+}
+.in{
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;   
+    border: 2px solid blac; 
+    height: 60px;
+    margin-bottom: 0px;
+}
+input{
+    flex:1;
+    width: 300px;
+    height: 26px;
+    border:1px solid rgb(203, 198, 198);
+    border-radius: 4px;
+}
+label{
+    font-weight: 600;
+}
+button{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: green;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 40px;
+}
+button:hover {
+    background-color: rgb(42, 159, 42);
+  }
+  
+button:active {
+    background-color: rgb(2, 103, 2);
+  }
+.text{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+a{
+    color:rgb(2, 103, 2);
+}
+input:invalid{
+    border-color: red;
+}
